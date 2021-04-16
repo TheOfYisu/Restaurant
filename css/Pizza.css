@@ -267,8 +267,41 @@
         .site-footer {
             padding-bottom: 0
         }
-        .site-footer .copyright-text,
+        .site-footer .copyright-text;
         .site-footer .social-icons {
             text-align: center
         }
+    }
+    
+    table {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 12px;
+        margin: 45px;
+        width: 480px;
+        text-align: left;
+        border-collapse: collapse;
+    }
+    
+    th {
+        font-size: 13px;
+        font-weight: normal;
+        padding: 8px;
+        background: #D32F2F;
+        border-top: 4px solid #e954ab;
+        border-bottom: 1px solid rgb(69, 76, 177);
+        color: #039;
+    }
+    
+    td {
+        padding: 8px;
+        background: #e8edff;
+        border-bottom: 1px solid rgb(214, 136, 136);
+        color: rgb(61, 138, 138);
+        border-top: 1px solid transparent;
+    }
+    
+    tr:hover td {
+        background: #c7e427;
+        color: #339;
+        font-weight: lighter;
     }
