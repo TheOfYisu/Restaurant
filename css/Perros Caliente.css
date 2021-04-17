@@ -31,7 +31,7 @@ header {
 [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
-    speak: never;
+    speak-as: never;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -279,7 +279,7 @@ table {
     width: 480px;
     text-align: left;
     border-collapse: collapse;
-    margin-top: -57%;
+    margin-top: -39%;
     margin-left: 150px;
     margin-right: 40px;
 }
