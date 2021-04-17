@@ -267,8 +267,7 @@ iframe {
     .site-footer {
         padding-bottom: 0
     }
-    .site-footer .copyright-text
-    .site-footer .social-icons {
+    .site-footer .copyright-text .site-footer .social-icons {
         text-align: center
     }
 }
@@ -280,6 +279,9 @@ table {
     width: 480px;
     text-align: left;
     border-collapse: collapse;
+    margin-top: -57%;
+    margin-left: 150px;
+    margin-right: 40px;
 }
 
 th {
@@ -304,4 +306,13 @@ tr:hover td {
     background: #c7e427;
     color: #339;
     font-weight: lighter;
+}
+
+.right {
+    margin-left: 400px;
+    margin-right: 10px;
+    width: 300px;
+    height: 330px;
+    padding-left: 25%;
+    margin-top: 80px;
 }
